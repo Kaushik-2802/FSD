@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    const obj={
+        name:'abc',
+        age:20,
+        email:'abc@g.com',
+        address:'123 street hyd'
+    }
+    function createProfile(obj){
+        const {name:Name,email:Email}=obj
+        const res={Name,Email}
+        console.log(res)
+    }
+    createProfile(obj)
+</script>
+<body>
+    
+</body>
+</html>
